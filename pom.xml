@@ -10,10 +10,10 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>loan-web</module>
-        <module>loan-imodel</module>
-        <module>loan-model</module>
+        <module>loan-model-api</module>
+        <module>loan-model-impl</module>
         <module>loan-repository</module>
-        <module>loan-iservice</module>
+        <module>loan-service-api</module>
         <module>loan-service-impl</module>
         <module>loan-utility</module>
         <module>loan-endpoint</module>
