@@ -6,10 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="loanapplicationmanager" />
+        <module name="loan-endpoint" />
+        <module name="loan-imodel" />
+        <module name="loan-iservice" />
+        <module name="loan-model" />
+        <module name="loan-repository" />
+        <module name="loan-service-impl" />
+        <module name="loan-utility" />
+        <module name="loan-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="loan-endpoint" target="1.5" />
+      <module name="loan-imodel" target="1.5" />
+      <module name="loan-iservice" target="1.5" />
+      <module name="loan-model" target="1.5" />
+      <module name="loan-repository" target="1.5" />
+      <module name="loan-service-impl" target="1.5" />
+      <module name="loan-utility" target="1.5" />
+      <module name="loan-web" target="1.5" />
       <module name="loanapplicationmanager" target="1.5" />
     </bytecodeTargetLevel>
   </component>
