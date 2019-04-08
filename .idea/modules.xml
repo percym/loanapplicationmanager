@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/loan-web/loan-web.iml" filepath="$PROJECT_DIR$/loan-web/loan-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/loanapplicationmanager.iml" filepath="$PROJECT_DIR$/loanapplicationmanager.iml" />
     </modules>
   </component>
