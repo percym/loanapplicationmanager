@@ -10,10 +10,13 @@
         <module name="loan-imodel" />
         <module name="loan-iservice" />
         <module name="loan-model" />
+        <module name="loan-model-api" />
+        <module name="loan-model-impl" />
         <module name="loan-repository" />
+        <module name="loan-service-api" />
         <module name="loan-service-impl" />
         <module name="loan-utility" />
-        <module name="loan-web" />
+        <module name="loan-web-app" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,10 +24,14 @@
       <module name="loan-imodel" target="1.5" />
       <module name="loan-iservice" target="1.5" />
       <module name="loan-model" target="1.5" />
+      <module name="loan-model-api" target="1.5" />
+      <module name="loan-model-impl" target="1.5" />
       <module name="loan-repository" target="1.5" />
+      <module name="loan-service-api" target="1.5" />
       <module name="loan-service-impl" target="1.5" />
       <module name="loan-utility" target="1.5" />
       <module name="loan-web" target="1.5" />
+      <module name="loan-web-app" target="1.8" />
       <module name="loanapplicationmanager" target="1.5" />
     </bytecodeTargetLevel>
   </component>

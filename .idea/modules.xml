@@ -3,13 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/loan-endpoint/loan-endpoint.iml" filepath="$PROJECT_DIR$/loan-endpoint/loan-endpoint.iml" />
-      <module fileurl="file://$PROJECT_DIR$/loan-imodel/loan-imodel.iml" filepath="$PROJECT_DIR$/loan-imodel/loan-imodel.iml" />
-      <module fileurl="file://$PROJECT_DIR$/loan-iservice/loan-iservice.iml" filepath="$PROJECT_DIR$/loan-iservice/loan-iservice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/loan-model/loan-model.iml" filepath="$PROJECT_DIR$/loan-model/loan-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loan-model-api/loan-model-api.iml" filepath="$PROJECT_DIR$/loan-model-api/loan-model-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loan-model-impl/loan-model-impl.iml" filepath="$PROJECT_DIR$/loan-model-impl/loan-model-impl.iml" />
       <module fileurl="file://$PROJECT_DIR$/loan-repository/loan-repository.iml" filepath="$PROJECT_DIR$/loan-repository/loan-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loan-service-api/loan-service-api.iml" filepath="$PROJECT_DIR$/loan-service-api/loan-service-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/loan-service-impl/loan-service-impl.iml" filepath="$PROJECT_DIR$/loan-service-impl/loan-service-impl.iml" />
       <module fileurl="file://$PROJECT_DIR$/loan-utility/loan-utility.iml" filepath="$PROJECT_DIR$/loan-utility/loan-utility.iml" />
-      <module fileurl="file://$PROJECT_DIR$/loan-web/loan-web.iml" filepath="$PROJECT_DIR$/loan-web/loan-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loan-web-app/loan-web-app.iml" filepath="$PROJECT_DIR$/loan-web-app/loan-web-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/loanapplicationmanager.iml" filepath="$PROJECT_DIR$/loanapplicationmanager.iml" />
     </modules>
   </component>
