@@ -7,7 +7,7 @@ import com.loanscompany.lam.imodel.general.ITimeActiveRecordEntity;
  *
  * @author percym
  */
-public interface IApplicantAddressSettings extends ITimeActiveRecordEntity{
+    public interface IApplicantAddressSettings extends ITimeActiveRecordEntity{
 
     /**
      * Gets whether a current home address  is required for loans applied for this client.
