@@ -25,7 +25,7 @@
       <module name="loan-iservice" target="1.5" />
       <module name="loan-model" target="1.5" />
       <module name="loan-model-api" target="1.8" />
-      <module name="loan-model-impl" target="1.5" />
+      <module name="loan-model-impl" target="1.8" />
       <module name="loan-repository" target="1.5" />
       <module name="loan-service-api" target="1.5" />
       <module name="loan-service-impl" target="1.5" />
