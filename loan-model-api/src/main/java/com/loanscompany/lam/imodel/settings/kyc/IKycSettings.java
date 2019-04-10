@@ -1,4 +1,4 @@
-package com.loanscompany.lam.imodel.settings;
+package com.loanscompany.lam.imodel.settings.kyc;
 
 import com.loanscompany.lam.imodel.general.ITimeActiveRecordEntity;
 
@@ -7,7 +7,7 @@ import com.loanscompany.lam.imodel.general.ITimeActiveRecordEntity;
  *
  * @author percym
  */
-public interface ISettings extends ITimeActiveRecordEntity {
+public interface IKycSettings extends ITimeActiveRecordEntity {
 
     /**
      * Gets whether a national id is required for loans applied for this client.
