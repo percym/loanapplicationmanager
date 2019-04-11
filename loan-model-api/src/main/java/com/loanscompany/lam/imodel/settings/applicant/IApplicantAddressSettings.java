@@ -1,4 +1,4 @@
-package com.loanscompany.lam.imodel.settings.address.applicant;
+package com.loanscompany.lam.imodel.settings.applicant;
 
 import com.loanscompany.lam.imodel.general.ITimeActiveRecordEntity;
 
