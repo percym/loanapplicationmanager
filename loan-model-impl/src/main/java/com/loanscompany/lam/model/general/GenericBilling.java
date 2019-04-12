@@ -1,6 +1,6 @@
 package com.loanscompany.lam.model.general;
 
-import com.health263.imodel.general.IGenericBilling;
+import com.loanscompany.lam.imodel.general.IGenericBilling;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 import org.hibernate.envers.Audited;

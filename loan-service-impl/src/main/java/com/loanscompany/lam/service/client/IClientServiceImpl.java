@@ -21,7 +21,7 @@ import java.util.List;
 public class IClientServiceImpl implements IClientService {
 
     @Autowired
-    private ClientRepository clientRepository;
+     ClientRepository clientRepository;
 
 
     /**

@@ -3,7 +3,6 @@ package com.loanscompany.lam.imodel.user;
 import com.loanscompany.lam.imodel.general.IActive;
 import com.loanscompany.lam.imodel.location.ILocation;
 
-import javax.management.relation.Role;
 import java.util.Set;
 
 /**
@@ -11,7 +10,7 @@ import java.util.Set;
  *
  * @author percym
  */
-public interface ISystemUser extends IActive {
+public interface ISystemUser<T extends IRole> extends IActive {
 
     /**
      * Returns the userName of the user.
@@ -84,17 +83,17 @@ public interface ISystemUser extends IActive {
     void setLocation(ILocation location);
 
     /**
-     * Gets the {@link Role } of the user
+     * Gets the {@link T } of the user
      *
      * @return roles
      * */
-    Set<Role> getRoles() ;
+    Set<T> getRoles() ;
 
     /**
-     * Sets the {@link Role } of the user
+     * Sets the {@link T } of the user
      *
      * @param  roles
      * */
-    void setRoles(Set<Role> roles) ;
+    void setRoles(Set<T> roles) ;
 
 }

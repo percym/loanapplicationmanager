@@ -2,25 +2,23 @@ package com.loanscompany.lam.model.user;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import com.health263.imodel.client.IFacility;
-import com.health263.imodel.group.IGroup;
-import com.health263.imodel.location.ILocation;
-import com.health263.imodel.user.ISystemUser;
-import com.health263.model.client.Facility;
-import com.health263.model.general.Active;
-import com.health263.model.group.Group;
-import com.health263.model.location.Location;
+
+import com.loanscompany.lam.imodel.location.ILocation;
+import com.loanscompany.lam.imodel.user.ISystemUser;
+import com.loanscompany.lam.model.general.Active;
+import com.loanscompany.lam.model.location.Location;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 import org.hibernate.envers.Audited;
-import org.hibernate.validator.constraints.Email;
 
 import javax.persistence.*;
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * @author Munyaradzi Takayindisa
@@ -45,7 +43,7 @@ import javax.validation.constraints.Size;
         @AttributeOverride(name = "active", column = @Column(name = "system_user_is_active"))
 })
 @SequenceGenerator(name = "default_seq", schema = "data", sequenceName = "system_user_enc_serial_seq", allocationSize = 1)
-public class SystemUserDTO extends Active implements ISystemUser {
+public class SystemUserDTO extends Active implements ISystemUser<Role>{
 
     private static final long serialVersionUID = -5803233040844849239L;
 
@@ -59,7 +57,6 @@ public class SystemUserDTO extends Active implements ISystemUser {
     @Column(name = "user_password", length = 1)
     private String password;
 
-    @Email
     @Column(name = "user_email")
     private String email;
 
@@ -70,16 +67,11 @@ public class SystemUserDTO extends Active implements ISystemUser {
     @Valid
     @JsonDeserialize(as = Location.class)
     @OneToOne(cascade = CascadeType.ALL ,orphanRemoval = true, targetEntity = Location.class)
-    private ILocation<?> location;
+    private ILocation location;
 
-    @Valid
-    @JsonDeserialize(as = Group.class)
-    @OneToOne(cascade = CascadeType.ALL ,orphanRemoval = true, targetEntity = Group.class)
-    private IGroup<?> group;
-
-    @Valid
-    @JsonDeserialize(as= Facility.class)
-    @OneToOne(fetch = FetchType.LAZY, targetEntity = Facility.class, cascade = CascadeType.ALL)
-    private IFacility facility;
-
+    @ManyToMany(fetch = FetchType.LAZY)
+    @JoinTable(name = "user_roles",
+            joinColumns = @JoinColumn(name = "user_serial"),
+            inverseJoinColumns = @JoinColumn(name = "role_serial"))
+    private Set<Role> roles = new HashSet<>();
 }

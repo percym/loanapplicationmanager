@@ -18,7 +18,6 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 		DataSourceAutoConfiguration.class,
 		DataSourceTransactionManagerAutoConfiguration.class,
 		JndiConnectionFactoryAutoConfiguration.class})
-@EnableWebSecurity
 @ComponentScan({"com.loanscompany.lam"})
 @EnableJpaRepositories({"com.loanscompany.lam"})
 @EntityScan({"com.loanscompany.lam"})

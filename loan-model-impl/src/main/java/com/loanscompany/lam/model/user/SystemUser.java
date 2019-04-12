@@ -44,7 +44,7 @@ import java.util.Set;
         @AttributeOverride(name = "active", column = @Column(name = "system_user_is_active"))
 })
 //@SequenceGenerator(name = "default_seq", schema = "data", sequenceName = "system_user_serial_seq", allocationSize = 1)
-public class SystemUser extends Active implements ISystemUser {
+public class SystemUser extends Active implements ISystemUser<Role> {
 
     private static final long serialVersionUID = -5803233040844849239L;
 
