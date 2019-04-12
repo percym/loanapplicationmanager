@@ -1,6 +1,6 @@
 package com.loanscompany.lam.model.general;
 
-import com.health263.imodel.general.ITimeActiveRecordEntity;
+import com.loanscompany.lam.imodel.general.ITimeActiveRecordEntity;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 import org.hibernate.annotations.CreationTimestamp;
@@ -15,7 +15,7 @@ import java.util.Objects;
 /**
  * Entity bean for finding all active records
  *
- * @author Munyaradzi Takayindisa
+ * @author percym
  */
 @MappedSuperclass
 @Audited

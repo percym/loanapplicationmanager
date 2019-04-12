@@ -1,6 +1,6 @@
 package com.loanscompany.lam.model.general;
 
-import com.health263.imodel.general.IPrimaryKey;
+import com.loanscompany.lam.imodel.general.IPrimaryKey;
 import lombok.EqualsAndHashCode;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;

@@ -13,7 +13,7 @@ import java.util.Objects;
 /**
  * Active entity bean for getting active records.
  *
- * @author Munyaradzi Takayindisa
+ * @author percym
  */
 @MappedSuperclass
 @Audited

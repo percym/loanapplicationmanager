@@ -7,10 +7,10 @@ package com.loanscompany.lam.utility.enums;
  */
 public enum ClientType {
 
-    GP,
+    BANK,
 
-    ER24,
+    MICROFINANCE,
 
-    HOSPITAL
+    COMPANY
 
 }

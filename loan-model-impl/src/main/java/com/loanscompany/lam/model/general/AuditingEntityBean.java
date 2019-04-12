@@ -22,7 +22,7 @@ import static com.loanscompany.lam.utility.strings.StringUtils.maxLength;
 /**
  * AuditingEntityBean entity bean.
  *
- * @author Munyaradzi Takayindisa
+ * @author percym
  */
 @MappedSuperclass
 @Audited
