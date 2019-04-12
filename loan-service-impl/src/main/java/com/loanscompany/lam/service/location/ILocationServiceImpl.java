@@ -22,7 +22,7 @@ import java.util.List;
 public class ILocationServiceImpl implements ILocationService {
 
     @Autowired
-    private LocationRepository locationRepository;
+    LocationRepository locationRepository;
 
     @Override
     public Location save(Location location) {

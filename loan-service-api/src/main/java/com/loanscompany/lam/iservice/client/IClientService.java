@@ -2,7 +2,6 @@ package com.loanscompany.lam.iservice.client;
 
 
 import com.loanscompany.lam.model.client.Client;
-import org.springframework.data.domain.Pageable;
 
 import java.util.List;
 

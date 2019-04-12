@@ -20,7 +20,7 @@ import java.util.Optional;
 @Transactional
 public class IRoleServiceImpl  implements IRoleService{
     @Autowired
-    private RoleRepository roleRepository;
+     RoleRepository roleRepository;
 
     @Override
     public Role save(Role role) {

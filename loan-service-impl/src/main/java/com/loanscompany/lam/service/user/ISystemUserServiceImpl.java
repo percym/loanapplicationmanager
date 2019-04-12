@@ -20,7 +20,7 @@ import java.util.Optional;
 public class ISystemUserServiceImpl  implements ISystemUserService {
 
     @Autowired
-    private SystemUserRepository systemUserRepository;
+    SystemUserRepository systemUserRepository;
 
 
     @Override
