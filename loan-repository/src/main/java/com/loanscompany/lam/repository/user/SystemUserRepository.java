@@ -24,4 +24,6 @@ public interface SystemUserRepository extends JpaRepository<SystemUser,Long>,Jpa
     List<SystemUser> findAllByLocation_Client_Id(Long clientId);
 
     List<SystemUser> findAll();
+
+    Boolean existsByEmail(String email);
 }

@@ -1,8 +1,7 @@
 package com.loanscompany.lam.model.client;
 
-
-import com.health263.imodel.client.ILogo;
-import com.health263.model.general.PrimaryKeyBean;
+import com.loanscompany.lam.imodel.client.ILogo;
+import com.loanscompany.lam.model.general.PrimaryKeyBean;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.envers.Audited;
@@ -28,8 +27,7 @@ import javax.validation.constraints.NotNull;
         @AttributeOverride(name = "updatedOn", column = @Column(name = "logo_updated_on")),
         @AttributeOverride(name = "active", column = @Column(name = "logo_is_active"))
 })
-@SequenceGenerator(name = "default_seq", schema = "data", sequenceName = "logo_serial_seq", allocationSize = 1)
-public class Logo extends PrimaryKeyBean implements ILogo  {
+public class Logo extends PrimaryKeyBean implements ILogo {
 
     private static final long serialVersionUID = -7896223980396662140L;
 
