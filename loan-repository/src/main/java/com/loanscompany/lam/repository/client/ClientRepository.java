@@ -11,6 +11,6 @@ import org.springframework.stereotype.Repository;
  * @author percym
  */
 @Repository
-public interface ClientRepository  extends JpaRepository<Client, Long>, JpaSpecificationExecutor<Client>{
+public interface ClientRepository  extends JpaRepository<Client, Long>, JpaSpecificationExecutor<Client> {
     Client findFirstByRegNumber(String regNumber);
 }

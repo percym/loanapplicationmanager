@@ -16,10 +16,9 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 @Configuration
 @EnableAutoConfiguration(exclude = {
 		DataSourceAutoConfiguration.class,
-		DataSourceTransactionManagerAutoConfiguration.class,
-		JndiConnectionFactoryAutoConfiguration.class})
+		DataSourceTransactionManagerAutoConfiguration.class})
 @ComponentScan(basePackages = {"com.loanscompany.lam","com.loanscompany.lam.service"})
-@EnableJpaRepositories({"com.loanscompany.lam"})
+@EnableJpaRepositories({"com.loanscompany.lam.repository"})
 @EntityScan({"com.loanscompany.lam.model"})
 @SpringBootApplication
 public class LoanWebAppApplication {

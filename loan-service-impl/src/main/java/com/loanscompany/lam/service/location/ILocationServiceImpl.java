@@ -1,4 +1,5 @@
 package com.loanscompany.lam.service.location;
+
 import com.loanscompany.lam.iservice.location.ILocationService;
 import com.loanscompany.lam.model.location.Location;
 import com.loanscompany.lam.repository.location.LocationRepository;
