@@ -51,6 +51,11 @@
             <artifactId>spring-security-config</artifactId>
             <version>5.1.1.RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>com.loanscompany.lam</groupId>
+            <artifactId>loan-iservice</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 
