@@ -23,9 +23,6 @@ import java.util.List;
 @Transactional
 public class IClientServiceImpl implements IClientService {
 
-    @PersistenceContext
-    EntityManager entityManagerFactory;
-
     @Autowired
      ClientRepository clientRepository;
 

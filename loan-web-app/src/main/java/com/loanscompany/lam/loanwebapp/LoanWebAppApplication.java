@@ -14,9 +14,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 
 @Configuration
-@EnableAutoConfiguration(exclude = {
-		DataSourceAutoConfiguration.class,
-		DataSourceTransactionManagerAutoConfiguration.class})
+@EnableAutoConfiguration
 @ComponentScan(basePackages = {"com.loanscompany.lam","com.loanscompany.lam.service"})
 @EnableJpaRepositories({"com.loanscompany.lam.repository"})
 @EntityScan({"com.loanscompany.lam.model"})
