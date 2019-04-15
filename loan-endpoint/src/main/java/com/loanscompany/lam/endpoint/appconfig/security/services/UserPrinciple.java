@@ -1,4 +1,4 @@
-package com.loanscompany.lam.endpoint.appconfig.security;
+package com.loanscompany.lam.endpoint.appconfig.security.services;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.loanscompany.lam.model.user.SystemUser;
