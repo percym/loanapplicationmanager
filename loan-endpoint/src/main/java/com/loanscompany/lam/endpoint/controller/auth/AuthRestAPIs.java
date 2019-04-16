@@ -58,7 +58,7 @@ public class AuthRestAPIs {
 		String jwt = jwtProvider.generateJwtToken(authentication);
 		UserDetails userDetails = (UserDetails) authentication.getPrincipal();
 
-		return ResponseEntity.ok(new JwtResponse(jwt, userDetails.getUsername(), userDetails.getAuthorities()));
+		return ResponseEntity.ok(new JwtResponse(jwt, loginRequest.getUsername(),  userDetails.getUsername(), userDetails.getAuthorities()));
 	}
 
 	@PostMapping("/signup")
@@ -67,6 +67,10 @@ public class AuthRestAPIs {
 			return new ResponseEntity<>(new ResponseMessage("Fail -> Username is already taken!"),
 					HttpStatus.BAD_REQUEST);
 		}
+
+		String encodedPass = encoder.encode(signUpRequest.getPassword());
+		signUpRequest.setPassword(encodedPass);
+
 		userService.save(signUpRequest);
 		return new ResponseEntity<>(new ResponseMessage("User registered successfully!"), HttpStatus.OK);
 	}

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4e0f94e-4a7b-4405-9c38-a732c0887c61" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/user/SystemUserController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/role/RoleController.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/loan-model-impl/src/main/java/com/loanscompany/lam/model/user/SystemUser.java" afterPath="$PROJECT_DIR$/loan-model-impl/src/main/java/com/loanscompany/lam/model/user/SystemUser.java" />
+      <change beforePath="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/appconfig/security/jwt/message/response/JwtResponse.java" afterPath="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/appconfig/security/jwt/message/response/JwtResponse.java" />
+      <change beforePath="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/auth/AuthRestAPIs.java" afterPath="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/auth/AuthRestAPIs.java" />
+      <change beforePath="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/user/SystemUserController.java" afterPath="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/user/SystemUserController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,25 +74,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthRestAPIs.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AuthRestAPIs.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/auth/AuthRestAPIs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+            <state relative-caret-position="225">
+              <caret line="60" column="81" lean-forward="false" selection-start-line="60" selection-start-column="81" selection-end-line="60" selection-end-column="81" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SystemUserController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JwtResponse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/appconfig/security/jwt/message/response/JwtResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+              <folding>
+                <element signature="e#1024#1025#0" expanded="true" />
+                <element signature="e#1043#1044#0" expanded="true" />
+                <element signature="e#1082#1083#0" expanded="true" />
+                <element signature="e#1107#1108#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDetails.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.8.RELEASE/spring-security-core-5.0.8.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetails.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SystemUserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/user/SystemUserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="31" />
+            <state relative-caret-position="369">
+              <caret line="55" column="55" lean-forward="true" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#945#946#0" expanded="true" />
-                <element signature="e#1003#1004#0" expanded="true" />
+                <element signature="e#1104#1105#0" expanded="true" />
+                <element signature="e#1162#1163#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,8 +191,6 @@
         <option value="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/appconfig/security/jwt/JwtAuthEntryPoint.java" />
         <option value="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/appconfig/security/jwt/JwtAuthTokenFilter.java" />
         <option value="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/appconfig/security/jwt/response/response/JwtResponse.java" />
-        <option value="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/appconfig/security/jwt/message/response/JwtResponse.java" />
-        <option value="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/auth/AuthRestAPIs.java" />
         <option value="$PROJECT_DIR$/loan-model-impl/src/main/java/com/loanscompany/lam/model/user/LoginUserDTO.java" />
         <option value="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/appconfig/security/services/UserPrinciple.java" />
         <option value="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/appconfig/ApplicationProperties.java" />
@@ -192,6 +215,8 @@
         <option value="$PROJECT_DIR$/loan-model-impl/src/main/java/com/loanscompany/lam/model/user/SystemUser.java" />
         <option value="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/role/RoleController.java" />
         <option value="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/user/SystemUserController.java" />
+        <option value="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/auth/AuthRestAPIs.java" />
+        <option value="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/appconfig/security/jwt/message/response/JwtResponse.java" />
       </list>
     </option>
   </component>
@@ -285,6 +310,28 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="endpoint" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loanapplicationmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loanapplicationmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="loan-endpoint" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="endpoint" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loanapplicationmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loanapplicationmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="loan-endpoint" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="endpoint" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="loanapplicationmanager" type="b2602c69:ProjectViewProjectNode" />
@@ -599,12 +646,12 @@
       <workItem from="1555082140394" duration="2036000" />
       <workItem from="1555145930732" duration="375000" />
       <workItem from="1555326539351" duration="15170000" />
-      <workItem from="1555403848009" duration="9374000" />
+      <workItem from="1555403848009" duration="11812000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76664000" />
+    <option name="totallyTimeSpent" value="79102000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="522" y="27" width="1366" height="741" extended-state="6" />
@@ -627,7 +674,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40952381" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40952381" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33809525" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19619326" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -689,8 +736,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/appconfig/security/jwt/response/response/ResponseMessage.java" />
-    <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/appconfig/security/jwt/response/response/JwtResponse.java" />
     <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/appconfig/security/jwt/message/request/SignUpForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -706,13 +751,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/appconfig/security/jwt/message/request/LoginForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/appconfig/security/jwt/message/response/JwtResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1065,14 +1103,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/client/ClientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/loan-model-impl/src/main/java/com/loanscompany/lam/model/location/Location.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
@@ -1089,14 +1119,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/auth/AuthRestAPIs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/loan-model-impl/src/main/java/com/loanscompany/lam/model/user/SystemUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1105,10 +1127,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/client/ClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/user/ISystemUserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.8.RELEASE/spring-security-core-5.0.8.RELEASE.jar!/org/springframework/security/authentication/UsernamePasswordAuthenticationToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/user/SystemUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="55" column="55" lean-forward="true" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.8.RELEASE/spring-security-core-5.0.8.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetails.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1125,15 +1183,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/user/SystemUserController.java">
+    <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/appconfig/security/jwt/message/response/JwtResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="31" />
+        <state relative-caret-position="420">
+          <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
+            <element signature="e#1107#1108#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/auth/AuthRestAPIs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="60" column="81" lean-forward="false" selection-start-line="60" selection-start-column="81" selection-end-line="60" selection-end-column="81" />
+          <folding />
         </state>
       </provider>
     </entry>
