@@ -1,6 +1,8 @@
 package com.loanscompany.lam.endpoint.appconfig.security.services;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.loanscompany.lam.imodel.user.ISystemUser;
+import com.loanscompany.lam.model.user.Role;
 import com.loanscompany.lam.model.user.SystemUser;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -46,7 +48,7 @@ public class UserPrinciple implements UserDetails {
 
     public static UserPrinciple build(SystemUser user) {
         List<GrantedAuthority> authorities = user.getRoles().stream().map(role ->
-                new SimpleGrantedAuthority(role.getName().name())
+                new SimpleGrantedAuthority(role.getRoleName().name())
         ).collect(Collectors.toList());
 
         return new UserPrinciple(

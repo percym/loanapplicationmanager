@@ -1,15 +1,6 @@
 package com.loanscompany.lam.endpoint.controller.auth;
 
-import com.grokonez.jwtauthentication.message.request.LoginForm;
-import com.grokonez.jwtauthentication.message.request.SignUpForm;
-import com.grokonez.jwtauthentication.message.response.JwtResponse;
-import com.grokonez.jwtauthentication.message.response.ResponseMessage;
-import com.grokonez.jwtauthentication.model.Role;
-import com.grokonez.jwtauthentication.model.RoleName;
-import com.grokonez.jwtauthentication.model.User;
-import com.grokonez.jwtauthentication.repository.RoleRepository;
-import com.grokonez.jwtauthentication.repository.UserRepository;
-import com.grokonez.jwtauthentication.security.jwt.JwtProvider;
+
 import com.loanscompany.lam.endpoint.appconfig.security.jwt.JwtProvider;
 import com.loanscompany.lam.endpoint.appconfig.security.jwt.message.request.LoginForm;
 import com.loanscompany.lam.endpoint.appconfig.security.jwt.message.request.SignUpForm;

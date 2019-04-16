@@ -1,5 +1,6 @@
 package com.loanscompany.lam.endpoint.appconfig.security;
 
+
 import com.loanscompany.lam.endpoint.appconfig.security.jwt.JwtAuthEntryPoint;
 import com.loanscompany.lam.endpoint.appconfig.security.jwt.JwtAuthTokenFilter;
 import com.loanscompany.lam.endpoint.appconfig.security.services.UserDetailsServiceImpl;

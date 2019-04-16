@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
 @Data
 @Component
 @ConfigurationProperties(prefix = "application", ignoreUnknownFields = true)
-@Import({springfox.bean.validators.configuration.BeanValidatorPluginsConfiguration.class})
+//@Import({springfox.bean.validators.configuration.BeanValidatorPluginsConfiguration.class})
 public class ApplicationProperties {
 
     private String secret;

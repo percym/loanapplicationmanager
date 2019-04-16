@@ -11,11 +11,10 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.scheduling.annotation.EnableScheduling;
-import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 
 @Configuration
 @EnableAutoConfiguration
-@ComponentScan(basePackages = {"com.loanscompany.lam","com.loanscompany.lam.service"})
+@ComponentScan(basePackages = {"com.loanscompany.lam.endpoint","com.loanscompany.lam.service"})
 @EnableJpaRepositories({"com.loanscompany.lam.repository"})
 @EntityScan({"com.loanscompany.lam.model"})
 @SpringBootApplication
