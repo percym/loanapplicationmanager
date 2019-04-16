@@ -39,7 +39,7 @@ import java.util.List;
 @Slf4j
 @CrossOrigin
 @RestController
-@RequestMapping("*/api")
+@RequestMapping("/api")
 public class ClientController {
 
     private static final String ENTITY_NAME = "client";
@@ -72,7 +72,7 @@ public class ClientController {
         log.debug("REST request to save IClient : {}", client);
         if (client.getId() != null) {
             return   new ResponseEntity<>(new ResponseMessage("Fail ->Enter valid location id!"),
-                    HttpStatus.BAD_REQUEST);;
+                    HttpStatus.BAD_REQUEST);
         }
         Client result = clientService.save(client);
         return ResponseEntity.created(new URI("/api/client/" + result.getId()))

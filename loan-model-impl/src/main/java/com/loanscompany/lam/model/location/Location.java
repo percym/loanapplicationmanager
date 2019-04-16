@@ -72,7 +72,7 @@ public class Location extends Active implements ILocation {
     @Valid
     @NotNull
     @JsonDeserialize(as = Client.class)
-    @OneToOne(fetch = FetchType.EAGER, targetEntity = Client.class,  cascade = {CascadeType.PERSIST}, orphanRemoval = true)
+    @OneToOne(targetEntity = Client.class,  cascade = {CascadeType.DETACH}, orphanRemoval = true)
     private IClient client;
 
 }

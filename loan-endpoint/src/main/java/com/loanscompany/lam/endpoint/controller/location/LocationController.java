@@ -22,7 +22,7 @@ import java.util.Optional;
 @Slf4j
 @CrossOrigin
 @RestController
-@RequestMapping("*/api")
+@RequestMapping("/api")
 public class LocationController {
 
     private static final String ENTITY_NAME = "location";
