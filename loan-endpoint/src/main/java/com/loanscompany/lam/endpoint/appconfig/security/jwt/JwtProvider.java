@@ -1,5 +1,6 @@
 package com.loanscompany.lam.endpoint.appconfig.security.jwt;
 
+import com.loanscompany.lam.endpoint.appconfig.ApplicationProperties;
 import com.loanscompany.lam.endpoint.appconfig.security.services.UserPrinciple;
 import io.jsonwebtoken.*;
 import org.slf4j.Logger;
@@ -15,11 +16,19 @@ public class JwtProvider {
 
     private static final Logger logger = LoggerFactory.getLogger(JwtProvider.class);
 
-    @Value("${grokonez.app.jwtSecret}")
+
     private String jwtSecret;
 
-    @Value("${grokonez.app.jwtExpiration}")
-    private int jwtExpiration;
+
+    private long jwtExpiration;
+
+    private final ApplicationProperties applicationProperties;
+
+    public JwtProvider(ApplicationProperties applicationProperties) {
+        this.applicationProperties = applicationProperties;
+        this.jwtExpiration = applicationProperties.getTokenValidityInSeconds();
+        this.jwtSecret = applicationProperties.getSecret();
+    }
 
     public String generateJwtToken(Authentication authentication) {
 
@@ -28,8 +37,8 @@ public class JwtProvider {
         return Jwts.builder()
 		                .setSubject((userPrincipal.getUsername()))
 		                .setIssuedAt(new Date())
-		                .setExpiration(new Date((new Date()).getTime() + jwtExpiration*1000))
-		                .signWith(SignatureAlgorithm.HS512, jwtSecret)
+		                .setExpiration(new Date((new Date()).getTime() + applicationProperties.getTokenValidityInSeconds()*1000))
+		                .signWith(SignatureAlgorithm.HS512, applicationProperties.getSecret())
 		                .compact();
     }
     
