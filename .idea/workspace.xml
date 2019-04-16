@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4e0f94e-4a7b-4405-9c38-a732c0887c61" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/client/ClientController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/location/LocationController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/loan-service-api/src/main/java/com/loanscompany/lam/iservice/fileUpload/StorageService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/fileUpload/FileSystemStorageService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/fileUpload/exceptions/FileStorageException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/fileUpload/exceptions/MyFileNotFoundException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/fileUpload/exceptions/StorageException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/fileUpload/exceptions/StorageFileNotFoundException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/storage/StorageProperties.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/loan_web_app_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/loan_web_app_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/loan-endpoint/loan-endpoint.iml" afterPath="$PROJECT_DIR$/loan-endpoint/loan-endpoint.iml" />
-      <change beforePath="$PROJECT_DIR$/loan-endpoint/pom.xml" afterPath="$PROJECT_DIR$/loan-endpoint/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/location/LocationController.java" afterPath="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/location/LocationController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LocationController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LocationController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/location/LocationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="72" column="37" lean-forward="true" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
+            <state relative-caret-position="120">
+              <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClientController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/client/ClientController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="129" column="32" lean-forward="false" selection-start-line="129" selection-start-column="32" selection-end-line="129" selection-end-column="32" />
+            <state relative-caret-position="777">
+              <caret line="161" column="33" lean-forward="false" selection-start-line="161" selection-start-column="25" selection-end-line="161" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,6 +57,18 @@
             <state relative-caret-position="30">
               <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileStorageService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/fileUpload/FileStorageService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="71" column="36" lean-forward="false" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,7 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/loan-repository/src/main/java/com/loanscompany/lam/repository/user/role/RoelRepository.java" />
         <option value="$PROJECT_DIR$/loan-model-impl/src/main/java/com/loanscompany/lam/model/client/Logo.java" />
         <option value="$PROJECT_DIR$/loan-repository/src/main/java/com/loanscompany/lam/repository/client/logo/LogoRepository.java" />
         <option value="$PROJECT_DIR$/loan-repository/src/main/java/com/loanscompany/lam/repository/location/LocationRepository.java" />
@@ -179,14 +178,15 @@
         <option value="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/appconfig/security/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/appconfig/swagger/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/loan-endpoint/pom.xml" />
-        <option value="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/location/LocationController.java" />
         <option value="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/biometric/BioController.java" />
         <option value="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/appconfig/storage/StorageProperties.java" />
         <option value="$PROJECT_DIR$/loan-service-api/src/main/java/com/loanscompany/lam/iservice/fileUpload/StorageService.java" />
         <option value="$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/fileUpload/exceptions/FileStorageException.java" />
         <option value="$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/fileUpload/exceptions/StorageFileNotFoundException.java" />
         <option value="$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/fileUpload/FileSystemStorageService.java" />
+        <option value="$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/fileUpload/FileStorageService.java" />
         <option value="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/client/ClientController.java" />
+        <option value="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/location/LocationController.java" />
       </list>
     </option>
   </component>
@@ -604,12 +604,12 @@
       <workItem from="1555082140394" duration="2036000" />
       <workItem from="1555145930732" duration="375000" />
       <workItem from="1555326539351" duration="15170000" />
-      <workItem from="1555403848009" duration="4228000" />
+      <workItem from="1555403848009" duration="4686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71518000" />
+    <option name="totallyTimeSpent" value="71976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="522" y="27" width="1366" height="741" extended-state="6" />
@@ -626,7 +626,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21269841" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17936508" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17936508" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -634,7 +634,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7285714" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33809525" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33809525" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19619326" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -663,16 +663,16 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21269841" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51746035" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17936508" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7285714" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33809525" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19619326" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -694,13 +694,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/loan-repository/src/main/java/com/loanscompany/lam/repository/user/role/RoleRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/user/role/IRoleServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1061,20 +1054,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/fileUpload/exceptions/FileStorageException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/fileUpload/FileSystemStorageService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="95" column="36" lean-forward="false" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1111,20 +1096,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/location/LocationController.java">
+    <entry file="file://$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/fileUpload/FileStorageService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="72" column="37" lean-forward="true" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
+        <state relative-caret-position="449">
+          <caret line="71" column="36" lean-forward="false" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/fileUpload/exceptions/FileStorageException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/client/ClientController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="129" column="32" lean-forward="false" selection-start-line="129" selection-start-column="32" selection-end-line="129" selection-end-column="32" />
+        <state relative-caret-position="777">
+          <caret line="161" column="33" lean-forward="false" selection-start-line="161" selection-start-column="25" selection-end-line="161" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/location/LocationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1190,7 +1193,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

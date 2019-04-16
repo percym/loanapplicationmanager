@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Optional;
 
 /**
- * Rest controller for managing groups
+ * Rest controller for managing locations
  *
  * @author Percy Mugadza
  */
