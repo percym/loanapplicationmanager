@@ -66,6 +66,7 @@
           </element>
           <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.12" />
           <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-annotations-api:9.0.12" />
+          <element id="library" level="project" name="Maven: io.dropwizard.metrics:metrics-annotation:4.0.3" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context-support:5.1.2.RELEASE" />
           <element id="archive" name="loan-model-1.0-SNAPSHOT.jar">
             <element id="module-output" name="loan-model-impl" />
