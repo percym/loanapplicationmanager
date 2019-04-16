@@ -67,12 +67,9 @@ public class SystemUser extends Active implements ISystemUser<Role> {
 
     @Valid
     @JsonDeserialize(as = Location.class)
-    @OneToOne(cascade = CascadeType.PERSIST ,orphanRemoval = true, targetEntity = Location.class)
+    @OneToOne(cascade = CascadeType.DETACH ,orphanRemoval = true, targetEntity = Location.class)
     private ILocation location;
 
     @ManyToMany(fetch = FetchType.LAZY)
-    @JoinTable(name = "user_roles",
-            joinColumns = @JoinColumn(name = "user_serial"),
-            inverseJoinColumns = @JoinColumn(name = "role_serial"))
     private Set<Role> roles = new HashSet<>();
 }
