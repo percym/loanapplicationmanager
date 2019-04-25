@@ -55,6 +55,10 @@ public class GuarantorSettings extends TimeActiveRecord implements IGuarantorSet
     private Boolean requireBusinessTelephoneNumber;
 
     @NotNull
+    @Column(name = "guarantor_home_phone")
+    private Boolean requireHomeTelephoneNumber;
+
+    @NotNull
     @Column(name = "guarantor_bank_phone")
     private Boolean requireBankDetails;
 

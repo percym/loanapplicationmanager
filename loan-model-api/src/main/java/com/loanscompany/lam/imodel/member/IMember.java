@@ -112,18 +112,18 @@ public interface IMember {
     void setDateOfBirth(LocalDate dateOfBirth);
 
     /**
-     * Returns the logo for this member.
+     * Returns the mugShot for this member.
      *
-     * @return the logo for this member.
+     * @return the mugShot for this member.
      */
-    ILogo getLogo();
+    ILogo getMugShot();
 
     /**
-     * Sets the logo for this member.
+     * Sets the mugShot for this member.
      *
-     * @param logo  for this member.
+     * @param mugShot  for this member.
      */
-    void setLogo(ILogo logo);
+    void setMugShot(ILogo mugShot);
 
     /**
      * Gets the {@link ISystemUser user} of the member.

@@ -12,6 +12,7 @@ import com.loanscompany.lam.imodel.settings.nextofkin.INextOfKinSettings;
 import com.loanscompany.lam.imodel.settings.nonres.INonResidentSettings;
 import com.loanscompany.lam.imodel.settings.property.IPropertySettings;
 import com.loanscompany.lam.model.client.Client;
+import com.loanscompany.lam.model.general.Active;
 import com.loanscompany.lam.model.general.TimeActiveRecord;
 import com.loanscompany.lam.model.settings.applicant.ApplicantAddressSettings;
 import com.loanscompany.lam.model.settings.applicant.ApplicantPersonalDetailsSettings;
@@ -51,14 +52,15 @@ import javax.validation.constraints.NotNull;
         @AttributeOverride(name = "createdOn", column = @Column(name = "loan_created_on")),
         @AttributeOverride(name = "updatedBy", column = @Column(name = "loan_updated_by")),
         @AttributeOverride(name = "updatedOn", column = @Column(name = "loan_updated_on")),
+        @AttributeOverride(name = "active", column = @Column(name = "loan_is_active"))
 })
-public class LoanSettings extends TimeActiveRecord implements ILoanSettings {
+public class LoanSettings extends Active implements ILoanSettings {
 
     private static final long serialVersionUID = -5803233040844849239L;
 
     @NotNull
     @Column(name = "loan_name")
-    private String requiredProperty;
+    private String name;
 
     @Valid
     @JsonDeserialize(as = ApplicantPersonalDetailsSettings.class)

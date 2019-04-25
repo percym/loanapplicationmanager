@@ -3,15 +3,11 @@ package com.loanscompany.lam.endpoint.controller.auth;
 
 import com.loanscompany.lam.endpoint.appconfig.security.jwt.JwtProvider;
 import com.loanscompany.lam.endpoint.appconfig.security.jwt.message.request.LoginForm;
-import com.loanscompany.lam.endpoint.appconfig.security.jwt.message.request.SignUpForm;
 import com.loanscompany.lam.endpoint.appconfig.security.jwt.message.response.JwtResponse;
 import com.loanscompany.lam.endpoint.appconfig.security.jwt.message.response.ResponseMessage;
 import com.loanscompany.lam.iservice.user.ISystemUserService;
 import com.loanscompany.lam.iservice.user.role.IRoleService;
-import com.loanscompany.lam.model.user.Role;
 import com.loanscompany.lam.model.user.SystemUser;
-import com.loanscompany.lam.repository.user.SystemUserRepository;
-import com.loanscompany.lam.utility.enums.RoleName;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -24,8 +20,6 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import java.util.HashSet;
-import java.util.Set;
 
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
@@ -35,17 +29,21 @@ public class AuthRestAPIs {
 	@Autowired
     AuthenticationManager authenticationManager;
 
-	@Autowired
-	ISystemUserService userService;
 
-	@Autowired
-	IRoleService roleService;
+	final ISystemUserService userService;
+
+	final IRoleService roleService;
 
 	@Autowired
     PasswordEncoder encoder;
 
 	@Autowired
 	JwtProvider jwtProvider;
+
+	public AuthRestAPIs(ISystemUserService userService, IRoleService roleService) {
+		this.userService = userService;
+		this.roleService = roleService;
+	}
 
 	@PostMapping("/signin")
 	public ResponseEntity<?> authenticateUser(@Valid @RequestBody LoginForm loginRequest) {

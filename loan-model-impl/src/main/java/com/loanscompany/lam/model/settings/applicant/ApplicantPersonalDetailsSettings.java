@@ -2,6 +2,7 @@ package com.loanscompany.lam.model.settings.applicant;
 
 import com.loanscompany.lam.imodel.member.IMember;
 import com.loanscompany.lam.imodel.settings.applicant.IApplicantAddressSettings;
+import com.loanscompany.lam.imodel.settings.applicant.IApplicantPersonalDetailsSettings;
 import com.loanscompany.lam.model.general.Active;
 import com.loanscompany.lam.model.general.TimeActiveRecord;
 import lombok.Data;
@@ -34,7 +35,7 @@ import javax.validation.constraints.NotNull;
         @AttributeOverride(name = "updatedBy", column = @Column(name = "applicant_updated_by")),
         @AttributeOverride(name = "updatedOn", column = @Column(name = "applicant_updated_on"))
 })
-public class ApplicantPersonalDetailsSettings extends TimeActiveRecord implements IApplicantAddressSettings {
+public class ApplicantPersonalDetailsSettings extends TimeActiveRecord implements IApplicantPersonalDetailsSettings {
 
     private static final long serialVersionUID = -5803233040844849239L;
 

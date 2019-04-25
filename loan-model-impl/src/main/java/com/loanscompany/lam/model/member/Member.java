@@ -1,9 +1,11 @@
 package com.loanscompany.lam.model.member;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.loanscompany.lam.imodel.client.ILogo;
 import com.loanscompany.lam.imodel.location.ILocation;
 import com.loanscompany.lam.imodel.member.IMember;
 import com.loanscompany.lam.imodel.user.ISystemUser;
+import com.loanscompany.lam.model.client.Logo;
 import com.loanscompany.lam.model.general.Active;
 import com.loanscompany.lam.model.location.Location;
 import com.loanscompany.lam.model.user.Role;
@@ -53,16 +55,18 @@ public class Member extends Active implements IMember {
     @NotNull
     @Size(max = 50)
     @Column(name = "member_title", length = 50)
-    private String userName;
+    private String title;
 
+    @NotNull
+    @Size(max = 50)
+    @Column(name = "member_first_name", length = 50)
+    private String firstName;
 
     @Size(max = 5)
     @Column(name = "member_initial", length =5)
     private String initials;
 
-    @NotNull
-    @Column(name = "member_name")
-    private String firstName;
+
     @NotNull
     @Column(name = "member_surname", length = 20)
     private String surname;
@@ -86,5 +90,10 @@ public class Member extends Active implements IMember {
     @OneToOne(cascade = CascadeType.ALL ,orphanRemoval = true, targetEntity = SystemUserDTO.class)
     private ISystemUser systemUser;
 
+
+    @Valid
+    @JsonDeserialize(as = Logo.class)
+    @OneToOne(fetch = FetchType.EAGER , cascade = CascadeType.ALL, targetEntity = Logo.class)
+    ILogo mugShot;
 
 }

@@ -52,6 +52,12 @@ public class SystemUserDTO extends Active implements ISystemUser<Role>{
     @Column(name = "user_username", length = 50, unique = true, nullable = false, updatable = false)
     private String userName;
 
+
+    @JsonIgnore
+    @Size(max = 1)
+    @Column(name = "user_password", length = 1)
+    private String password;
+
     @Column(name = "user_email", unique = true)
     private String email;
 

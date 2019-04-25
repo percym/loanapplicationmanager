@@ -50,7 +50,7 @@ public class KYCSettings extends TimeActiveRecord implements IKycSettings {
     private Boolean requireProofOfResidence;
 
     @NotNull
-    @Column(name = "kyc_proof_residence")
+    @Column(name = "kyc_loan_application")
     private Boolean requireLoanApplication;
 
     @NotNull
