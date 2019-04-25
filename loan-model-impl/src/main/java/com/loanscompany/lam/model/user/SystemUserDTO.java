@@ -49,15 +49,10 @@ public class SystemUserDTO extends Active implements ISystemUser<Role>{
 
     @NotNull
     @Size(max = 80)
-    @Column(name = "user_username", length = 50,  nullable = false)
+    @Column(name = "user_username", length = 50, unique = true, nullable = false, updatable = false)
     private String userName;
 
-    @JsonIgnore
-    @Size(max = 1)
-    @Column(name = "user_password", length = 1)
-    private String password;
-
-    @Column(name = "user_email")
+    @Column(name = "user_email", unique = true)
     private String email;
 
     @Size(max = 20)
@@ -66,12 +61,9 @@ public class SystemUserDTO extends Active implements ISystemUser<Role>{
 
     @Valid
     @JsonDeserialize(as = Location.class)
-    @OneToOne(cascade = CascadeType.ALL ,orphanRemoval = true, targetEntity = Location.class)
+    @OneToOne(cascade = CascadeType.DETACH ,orphanRemoval = true, targetEntity = Location.class)
     private ILocation location;
 
     @ManyToMany(fetch = FetchType.LAZY)
-    @JoinTable(name = "user_roles",
-            joinColumns = @JoinColumn(name = "user_serial"),
-            inverseJoinColumns = @JoinColumn(name = "role_serial"))
     private Set<Role> roles = new HashSet<>();
 }
