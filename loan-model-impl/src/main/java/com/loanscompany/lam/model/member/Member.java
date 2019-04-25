@@ -32,11 +32,10 @@ import java.util.Set;
 @Entity
 @Data
 @Audited
-@EntityListeners(AuditingEntityListener.class)
 @NoArgsConstructor
 @EqualsAndHashCode(callSuper = true)
 @ToString(callSuper = true)
-@Table(schema = "data", name = "Member")
+@Table(schema = "data", name = "member")
 @AttributeOverrides({
         @AttributeOverride(name = "id", column = @Column(name = "member_serial")),
         @AttributeOverride(name = "startDate", column = @Column(name = "member_start_date")),
