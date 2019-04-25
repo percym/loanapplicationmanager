@@ -1,8 +1,8 @@
-package com.loanscompany.lam.model.settings.applicant;
+package com.loanscompany.lam.model.settings.guarantor;
 
 import com.loanscompany.lam.imodel.member.IMember;
-import com.loanscompany.lam.imodel.settings.applicant.IApplicantAddressSettings;
-import com.loanscompany.lam.model.general.Active;
+import com.loanscompany.lam.imodel.settings.employment.IEmploymentSettings;
+import com.loanscompany.lam.imodel.settings.guarantor.IGuarantorSettings;
 import com.loanscompany.lam.model.general.TimeActiveRecord;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -16,7 +16,7 @@ import javax.validation.constraints.NotNull;
 /**
  * @author percym
  * <p>
- * Implementation for the {@link IApplicantAddressSettings} class
+ * Implementation for the {@link IGuarantorSettings} class
  */
 @Entity
 @Data
@@ -24,7 +24,7 @@ import javax.validation.constraints.NotNull;
 @NoArgsConstructor
 @EqualsAndHashCode(callSuper = true)
 @ToString(callSuper = true)
-@Table(schema = "data", name = "applicant_personal_settings")
+@Table(schema = "data", name = "applicant_guarantor_settings")
 @AttributeOverrides({
         @AttributeOverride(name = "id", column = @Column(name = "applicant_serial")),
         @AttributeOverride(name = "startDate", column = @Column(name = "applicant_start_date")),
@@ -32,42 +32,32 @@ import javax.validation.constraints.NotNull;
         @AttributeOverride(name = "createdBy", column = @Column(name = "applicant_created_by")),
         @AttributeOverride(name = "createdOn", column = @Column(name = "applicant_created_on")),
         @AttributeOverride(name = "updatedBy", column = @Column(name = "applicant_updated_by")),
-        @AttributeOverride(name = "updatedOn", column = @Column(name = "applicant_updated_on"))
+        @AttributeOverride(name = "updatedOn", column = @Column(name = "applicant_updated_on")),
 })
-public class ApplicantPersonalDetailsSettings extends TimeActiveRecord implements IApplicantAddressSettings {
+public class GuarantorSettings extends TimeActiveRecord implements IGuarantorSettings {
 
     private static final long serialVersionUID = -5803233040844849239L;
 
     @NotNull
-    @Column(name = "applicant_depedendants")
-    private Boolean requireNumberOfDependants;
+    @Column(name = "guarantor_education")
+    private Boolean requireOccupation;
 
     @NotNull
-    @Column(name = "applicant_children")
-    private Boolean requireNumberOfChildren;
+    @Column(name = "guarantor_employer")
+    private Boolean requireEmployerName;
 
     @NotNull
-    @Column(name = "applicant_country")
-    private Boolean requireCountryOfBirth;
+    @Column(name = "guarantor_employer_address")
+    private Boolean requireEmployerAddress;
 
     @NotNull
-    @Column(name = "applicant_place_birth")
-    private Boolean requirePlaceOfBirth;
+    @Column(name = "guarantor_employer_phone")
+    private Boolean requireBusinessTelephoneNumber;
 
     @NotNull
-    @Column(name = "applicant_nationality")
-    private Boolean requireNationality;
+    @Column(name = "guarantor_bank_phone")
+    private Boolean requireBankDetails;
 
-    @NotNull
-    @Column(name = "applicant_citizenship")
-    private Boolean requireCitizenShip;
 
-    @NotNull
-    @Column(name = "applicant_race")
-    private Boolean requireRace;
-
-    @NotNull
-    @Column(name = "applicant_email")
-    private Boolean requireEmail;
 
 }

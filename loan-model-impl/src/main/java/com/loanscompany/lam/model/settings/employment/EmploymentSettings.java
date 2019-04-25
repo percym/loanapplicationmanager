@@ -17,7 +17,7 @@ import javax.validation.constraints.NotNull;
 /**
  * @author percym
  * <p>
- * Implementation for the {@link IMember} class
+ * Implementation for the {@link IEmploymentSettings} class
  */
 @Entity
 @Data
