@@ -86,4 +86,6 @@ public class Member extends Active implements IMember {
     @JsonDeserialize(as = SystemUserDTO.class)
     @OneToOne(cascade = CascadeType.ALL ,orphanRemoval = true, targetEntity = SystemUserDTO.class)
     private ISystemUser systemUser;
+
+
 }
