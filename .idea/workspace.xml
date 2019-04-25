@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4e0f94e-4a7b-4405-9c38-a732c0887c61" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/loan-model-api/src/main/java/com/loanscompany/lam/imodel/settings/loan/ILoanSettings.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/loan-model-impl/src/main/java/com/loanscompany/lam/model/member/Member.java" afterPath="$PROJECT_DIR$/loan-model-impl/src/main/java/com/loanscompany/lam/model/member/Member.java" />
+      <change beforePath="$PROJECT_DIR$/loan-model-api/src/main/java/com/loanscompany/lam/imodel/settings/loan/ILoanSettings.java" afterPath="$PROJECT_DIR$/loan-model-api/src/main/java/com/loanscompany/lam/imodel/settings/loan/ILoanSettings.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,41 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Member.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loan-model-impl/src/main/java/com/loanscompany/lam/model/member/Member.java">
+      <file leaf-file-name="IApplicantPersonalDetailsSettings.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loan-model-api/src/main/java/com/loanscompany/lam/imodel/settings/applicant/IApplicantPersonalDetailsSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ISystemUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loan-model-api/src/main/java/com/loanscompany/lam/imodel/user/ISystemUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="82" column="20" lean-forward="false" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loan-model-api/src/main/java/com/loanscompany/lam/imodel/client/IClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ILocation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loan-model-api/src/main/java/com/loanscompany/lam/imodel/location/ILocation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="86" column="7" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="95" selection-end-column="35" />
+            <state relative-caret-position="130">
+              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -72,60 +40,8 @@
       <file leaf-file-name="ILoanSettings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/loan-model-api/src/main/java/com/loanscompany/lam/imodel/settings/loan/ILoanSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="149" column="1" lean-forward="true" selection-start-line="149" selection-start-column="1" selection-end-line="149" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IGuarantorSettings.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loan-model-api/src/main/java/com/loanscompany/lam/imodel/settings/guarantor/IGuarantorSettings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IApplicantAddressSettings.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loan-model-api/src/main/java/com/loanscompany/lam/imodel/settings/applicant/IApplicantAddressSettings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SystemUserDTO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loan-model-impl/src/main/java/com/loanscompany/lam/model/user/SystemUserDTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="59" column="25" lean-forward="true" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SystemUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loan-model-impl/src/main/java/com/loanscompany/lam/model/user/SystemUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="73" column="46" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="73" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IMember.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loan-model-api/src/main/java/com/loanscompany/lam/imodel/member/IMember.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="55" selection-end-column="40" />
+            <state relative-caret-position="264">
+              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,6 +68,7 @@
       <find>&quot;system_user</find>
       <find>encounter</find>
       <find>system_user</find>
+      <find>location</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;role</replace>
@@ -388,7 +305,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="imodel" type="462c0819:PsiDirectoryNode" />
-              <item name="member" type="462c0819:PsiDirectoryNode" />
+              <item name="location" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="loanapplicationmanager" type="b2602c69:ProjectViewProjectNode" />
@@ -409,7 +326,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="imodel" type="462c0819:PsiDirectoryNode" />
               <item name="settings" type="462c0819:PsiDirectoryNode" />
-              <item name="kyc" type="462c0819:PsiDirectoryNode" />
+              <item name="applicant" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="loanapplicationmanager" type="b2602c69:ProjectViewProjectNode" />
@@ -421,49 +338,6 @@
               <item name="imodel" type="462c0819:PsiDirectoryNode" />
               <item name="settings" type="462c0819:PsiDirectoryNode" />
               <item name="loan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="loanapplicationmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="loanapplicationmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="loan-model-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="imodel" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-              <item name="nextofkin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="loanapplicationmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="loanapplicationmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="loan-model-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="imodel" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-              <item name="nonres" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="loanapplicationmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="loanapplicationmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="loan-model-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="imodel" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-              <item name="property" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="loanapplicationmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="loanapplicationmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="loan-model-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="imodel" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="loanapplicationmanager" type="b2602c69:ProjectViewProjectNode" />
@@ -785,12 +659,12 @@
       <workItem from="1556006088599" duration="79000" />
       <workItem from="1556017213208" duration="16000" />
       <workItem from="1556021236678" duration="1142000" />
-      <workItem from="1556191648569" duration="6264000" />
+      <workItem from="1556191648569" duration="6737000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91065000" />
+    <option name="totallyTimeSpent" value="91538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -815,7 +689,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40952381" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33809525" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33809525" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19619326" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -875,19 +749,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/appconfig/security/jwt/message/response/JwtResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-          <folding>
-            <element signature="e#1024#1025#0" expanded="false" />
-            <element signature="e#1043#1044#0" expanded="false" />
-            <element signature="e#1082#1083#0" expanded="false" />
-            <element signature="e#1107#1108#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.8.RELEASE/spring-security-core-5.0.8.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetails.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1353,10 +1214,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/loan-model-api/src/main/java/com/loanscompany/lam/imodel/settings/applicant/IApplicantPersonalDetailsSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/loan-model-api/src/main/java/com/loanscompany/lam/imodel/settings/loan/ILoanSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="149" column="1" lean-forward="true" selection-start-line="149" selection-start-column="1" selection-end-line="149" selection-end-column="1" />
+        <state relative-caret-position="264">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

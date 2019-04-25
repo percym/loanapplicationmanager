@@ -3,6 +3,7 @@ package com.loanscompany.lam.imodel.settings.loan;
 import com.loanscompany.lam.imodel.client.IClient;
 import com.loanscompany.lam.imodel.general.IActive;
 import com.loanscompany.lam.imodel.settings.applicant.IApplicantAddressSettings;
+import com.loanscompany.lam.imodel.settings.applicant.IApplicantPersonalDetailsSettings;
 import com.loanscompany.lam.imodel.settings.employment.IEmploymentSettings;
 import com.loanscompany.lam.imodel.settings.guarantor.IGuarantorSettings;
 import com.loanscompany.lam.imodel.settings.kyc.IKycSettings;
@@ -31,6 +32,21 @@ public interface ILoanSettings extends IActive{
      * @param  name for this setting.
      */
     void setName(String name);
+    /**
+     * Returns  applicant personal details settings for this loan.
+     *
+     * @return applicant settings for this loan.
+     */
+
+    IApplicantPersonalDetailsSettings getApplicantPersonalDetailsSettings();
+
+    /**
+     * Sets  applicant personal details settings for this loan.
+     *
+     * @param  applicantPersonalDetailsSettings settings for this loan.
+     */
+    void setApplicantPersonalDetailsSettings(IApplicantPersonalDetailsSettings applicantPersonalDetailsSettings);
+
     /**
      * Returns  applicant settings for this loan.
      *
