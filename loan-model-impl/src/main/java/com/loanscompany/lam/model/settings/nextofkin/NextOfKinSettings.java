@@ -33,7 +33,7 @@ import javax.validation.constraints.NotNull;
         @AttributeOverride(name = "updatedBy", column = @Column(name = "nok_updated_by")),
         @AttributeOverride(name = "updatedOn", column = @Column(name = "nok_updated_on")),
 })
-public class NOKSettings extends TimeActiveRecord implements INextOfKinSettings {
+public class NextOfKinSettings extends TimeActiveRecord implements INextOfKinSettings {
 
     private static final long serialVersionUID = -5803233040844849239L;
 
