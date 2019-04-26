@@ -163,4 +163,50 @@ public interface ILoanSettings extends IActive{
      * @param client the  {@link IClient <T> client} for this loan.
      */
     void setClient(IClient client);
+
+    /**
+     * Return the interest rate for this loan.
+     *
+     * @return  interestRate  for this loan.
+     */
+
+    Long getInterestRate();
+
+    /**
+     * Sets the interest rate for this loan.
+     *
+     * @param interestRate  for this loan.
+     */
+    void setInterestRate(Long interestRate);
+
+    /**
+     * Return the insurance rate for this loan.
+     *
+     * @return  insuranceRate  for this loan.
+     */
+
+    Long getInsuranceRate();
+
+    /**
+     * Sets the insurance rate for this loan.
+     *
+     * @param insuranceRate  for this loan.
+     */
+    void setInsuranceRate(Long insuranceRate);
+
+    /**
+     * Return the other fees for this loan.
+     *
+     * @return  otherFees  for this loan.
+     */
+
+    BigDecimal getOtherFees();
+
+    /**
+     * Sets the other fees for this loan.
+     *
+     * @param otherFees  for this loan.
+     */
+    void setOtherFees(BigDecimal otherFees);
+
 }

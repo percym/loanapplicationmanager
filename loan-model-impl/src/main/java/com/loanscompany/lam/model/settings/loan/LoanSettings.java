@@ -30,7 +30,10 @@ import org.hibernate.envers.Audited;
 
 import javax.persistence.*;
 import javax.validation.Valid;
+import javax.validation.constraints.DecimalMax;
+import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.NotNull;
+import java.math.BigDecimal;
 
 /**
  * @author percym
@@ -107,4 +110,19 @@ public class LoanSettings extends Active implements ILoanSettings {
     @JsonDeserialize(as = Client.class)
     @OneToOne(targetEntity = Client.class,  cascade = {CascadeType.DETACH}, orphanRemoval = true)
     private IClient client;
+
+    @NotNull
+    @Column(name = "loan_insurance_rate")
+    Long insuranceRate;
+
+
+    @NotNull
+    @Column(name = "loan_interest_rate")
+    Long interestRate;
+
+    @NotNull
+    @DecimalMin("0.00")
+    @Column(name = "loan_other_fees", columnDefinition = "numeric(24,2) default '0.00'")
+    BigDecimal otherFees;
+
 }

@@ -3,7 +3,7 @@ package com.loanscompany.lam.imodel.general;
 /**
  * IActive interface for checking the record state.
  *
- * @author @author percym
+ * @author percym
  */
 public interface IActive extends IAuditingEntity, ITimeActiveRecordEntity {
 
