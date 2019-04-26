@@ -14,7 +14,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @Configuration
 @EnableAutoConfiguration
-@ComponentScan(basePackages = {"com.loanscompany.lam.endpoint","com.loanscompany.lam.iservice","com.loanscompany.lam.iservice"})
+@ComponentScan(basePackages = {"com.loanscompany.lam.endpoint","com.loanscompany.lam.iservice","com.loanscompany.lam.service"})
 @EnableJpaRepositories({"com.loanscompany.lam.repository"})
 @EntityScan({"com.loanscompany.lam.model"})
 @SpringBootApplication
