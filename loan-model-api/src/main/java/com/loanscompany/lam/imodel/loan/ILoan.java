@@ -28,7 +28,7 @@ public interface ILoan extends IApproved{
      *
      * @param  member for this loan.
      */
-    void setMember(Member member);
+    void setMember(IMember member);
     
     /**
      * Returns the next of kin  for this loan.
@@ -70,7 +70,7 @@ public interface ILoan extends IApproved{
      *
      * @param nationalId  national id image for this client.
      */
-    void getNationalId(ILogo nationalId);
+    void setNationalId(ILogo nationalId);
 
     /**
      * Returns the paySlip image for this client.
@@ -115,18 +115,18 @@ public interface ILoan extends IApproved{
     void setLoanApplicationSideTwo(ILogo loanApplicationSideTwo);
 
     /**
-     * Returns the paySlip image for this client.
+     * Returns the proofOfResidence image for this client.
      *
-     * @return the paySlip image for this client.
+     * @return the proofOfResidence image for this client.
      */
     ILogo getProofOfResidence();
 
     /**
-     * Sets the paySlip image for this client.
+     * Sets the proofOfResidence image for this client.
      *
-     * @param paySlip  national id image for this client.
+     * @param proofOfResidence  national id image for this client.
      */
-    void setProofOfResidence(ILogo paySlip);
+    void setProofOfResidence(ILogo proofOfResidence);
 
     /**
      * Returns the tenure for this loan.
@@ -168,9 +168,9 @@ public interface ILoan extends IApproved{
     /**
      * Sets the loan amount for this loan.
      *
-     * @param loanAmount  for this loan.
+     * @param installment  for this loan.
      */
-    void setInstallment(BigDecimal loanAmount);
+    void setInstallment(BigDecimal installment);
 
     /**
      * Returns the purpose for this loan.
@@ -200,7 +200,7 @@ public interface ILoan extends IApproved{
      * @param  loanSettingsId for this loan.
      */
 
-    void setLoanSettingsId(String loanSettingsId);
+    void setLoanSettingsId(Long loanSettingsId);
     /**
      * Gets the {@link ISystemUser user} of the member.
      *

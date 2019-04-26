@@ -120,21 +120,6 @@ public interface ILoanSettings extends IActive{
      */
     void setNextOfKinSettings(INextOfKinSettings nextOfKinSettings);
 
-
-    /**
-     * Returns  non res  settings for this loan.
-     *
-     * @return non res   settings for this loan.
-     */
-    INonResidentSettings getNonResidentSettings();
-
-    /**
-     * Sets  property settings for this loan.
-     *
-     * @param  propertySettings settings for this loan.
-     */
-    void setPropertySettings(IPropertySettings propertySettings);
-
     /**
      * Returns the {@link IClient <T> client} for this loan.
      *

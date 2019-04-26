@@ -21,7 +21,7 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 /**
- * @author Munyaradzi Takayindisa
+ * @author percym
  * <p>
  * Implementation for the INextOfKin class
  */

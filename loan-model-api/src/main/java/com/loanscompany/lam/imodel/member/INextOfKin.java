@@ -8,9 +8,9 @@ import com.loanscompany.lam.imodel.general.ITimeActiveRecordEntity;
 import com.loanscompany.lam.utility.enums.RelationshipType;
 
 /**
- * INextOfKin interface for defining the detials for the next of kin.
+ * INextOfKin interface for defining the details for the next of kin.
  *
- * @author Munyaradzi Takayindisa
+ * @author percym
  */
 public interface INextOfKin extends IAuditingEntity, ITimeActiveRecordEntity {
 
