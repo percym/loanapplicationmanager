@@ -1,7 +1,9 @@
 package com.loanscompany.lam.imodel.loan;
 
+import com.loanscompany.lam.imodel.client.ILogo;
 import com.loanscompany.lam.imodel.general.IApproved;
 import com.loanscompany.lam.imodel.member.IMember;
+import com.loanscompany.lam.imodel.member.INextOfKin;
 import com.loanscompany.lam.imodel.user.ISystemUser;
 
 import java.lang.reflect.Member;
@@ -13,91 +15,174 @@ import java.math.BigDecimal;
  * @author percym
  */
 public interface ILoan extends IApproved{
-
+    
     /**
-     * Returns the member for this location.
+     * Returns the member for this loan.
      *
-     * @return member for this location.
+     * @return member for this loan.
      */
     IMember getMember();
 
     /**
-     * Returns the member for this location.
+     * Returns the member for this loan.
      *
-     * @param  member for this location.
+     * @param  member for this loan.
      */
     void setMember(Member member);
+    
     /**
-     * Returns the member for this location.
+     * Returns the next of kin  for this loan.
      *
-     * @return member for this location.
+     * @return next of kin for this loan.
      */
-    IMember getMember();
+    INextOfKin getNextOfKin();
 
     /**
-     * Returns the member for this location.
+     * Returns the nextOfKin for this loan.
      *
-     * @param  member for this location.
+     * @param  nextOfKin for this loan.
      */
-    void setMember(Member member);
-
-
+    void setNextOfKin(INextOfKin nextOfKin);
 
     /**
-     * Returns the tenure for this location.
+     * Returns the guarantor  for this loan.
      *
-     * @return tenure for this location.
+     * @return guarantor for this loan.
+     */
+    INextOfKin getGuarantor();
+
+    /**
+     * Returns the guarantor for this loan.
+     *
+     * @param  guarantor for this loan.
+     */
+    void setGuarantor(INextOfKin guarantor);
+
+    /**
+     * Returns the national id image for this client.
+     *
+     * @return the national id image for this client.
+     */
+    ILogo getNationalId();
+
+    /**
+     * Sets the national id image for this client.
+     *
+     * @param nationalId  national id image for this client.
+     */
+    void getNationalId(ILogo nationalId);
+
+    /**
+     * Returns the paySlip image for this client.
+     *
+     * @return the paySlip image for this client.
+     */
+    ILogo getPaySlip();
+
+    /**
+     * Sets the paySlip image for this client.
+     *
+     * @param paySlip  national id image for this client.
+     */
+    void setPaySlip(ILogo paySlip);
+
+    /**
+     * Returns the loanApplicationSideOne image for this client.
+     *
+     * @return the loanApplicationSideOne image for this client.
+     */
+    ILogo getLoanApplicationSideOne();
+
+    /**
+     * Sets the loanApplicationSideOne image for this client.
+     *
+     * @param loanApplicationSideOne  national id image for this client.
+     */
+    void setLoanApplicationSideOne(ILogo loanApplicationSideOne);
+
+    /**
+     * Returns the loanApplicationSideTwo image for this client.
+     *
+     * @return the loanApplicationSideTwo image for this client.
+     */
+    ILogo getLoanApplicationSideTwo();
+
+    /**
+     * Sets the loanApplicationSideTwo image for this client.
+     *
+     * @param loanApplicationSideTwo  national id image for this client.
+     */
+    void setLoanApplicationSideTwo(ILogo loanApplicationSideTwo);
+
+    /**
+     * Returns the paySlip image for this client.
+     *
+     * @return the paySlip image for this client.
+     */
+    ILogo getProofOfResidence();
+
+    /**
+     * Sets the paySlip image for this client.
+     *
+     * @param paySlip  national id image for this client.
+     */
+    void setProofOfResidence(ILogo paySlip);
+
+    /**
+     * Returns the tenure for this loan.
+     *
+     * @return tenure for this loan.
      */
     Long getTenure();
 
     /**
-     * Returns the tenure for this location.
+     * Returns the tenure for this loan.
      *
-     * @param  tenure for this location.
+     * @param  tenure for this loan.
      */
     void setTenure(Long tenure);
 
     /**
-     * Returns the loan amount for this location.
+     * Returns the loan amount for this loan.
      *
-     * @return loan amount  for this location.
+     * @return loan amount  for this loan.
      */
 
     BigDecimal getLoanAmount();
 
     /**
-     * Sets the loan amount for this location.
+     * Sets the loan amount for this loan.
      *
-     * @param loanAmount  for this location.
+     * @param loanAmount  for this loan.
      */
     void setLoanAmount(BigDecimal loanAmount);
 
     /**
-     * Returns the loan instalment  for this location.
+     * Returns the loan instalment  for this loan.
      *
-     * @return loan amount  for this location.
+     * @return loan amount  for this loan.
      */
 
     BigDecimal getInstallment();
 
     /**
-     * Sets the loan amount for this location.
+     * Sets the loan amount for this loan.
      *
-     * @param loanAmount  for this location.
+     * @param loanAmount  for this loan.
      */
     void setInstallment(BigDecimal loanAmount);
 
     /**
-     * Returns the purpose for this location.
+     * Returns the purpose for this loan.
      *
-     * @return loanPurpose for this location.
+     * @return loanPurpose for this loan.
      */
     String getLoanPurpose();
 
     /**
-     * sets the purpose for this location.
+     * sets the purpose for this loan.
      *
-     * @param  loanPurpose for this location.
+     * @param  loanPurpose for this loan.
      */
 
     void setLoanPurpose(String loanPurpose);
@@ -129,7 +214,5 @@ public interface ILoan extends IApproved{
      * @param user of  the area user was created member.
      */
     void setSystemUser(ISystemUser user);
-
-
 
 }

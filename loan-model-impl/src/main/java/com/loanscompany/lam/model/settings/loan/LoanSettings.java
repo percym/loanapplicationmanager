@@ -96,16 +96,6 @@ public class LoanSettings extends Active implements ILoanSettings {
     INextOfKinSettings nextOfKinSettings;
 
     @Valid
-    @JsonDeserialize(as = NonResidentSettings.class)
-    @OneToOne(targetEntity = NonResidentSettings.class,  cascade = {CascadeType.ALL}, orphanRemoval = true)
-    INonResidentSettings nonResidentSettings;
-
-    @Valid
-    @JsonDeserialize(as = PropertySettings.class)
-    @OneToOne(targetEntity = PropertySettings.class,  cascade = {CascadeType.ALL}, orphanRemoval = true)
-    IPropertySettings propertySettings;
-
-    @Valid
     @NotNull
     @JsonDeserialize(as = Client.class)
     @OneToOne(targetEntity = Client.class,  cascade = {CascadeType.DETACH}, orphanRemoval = true)

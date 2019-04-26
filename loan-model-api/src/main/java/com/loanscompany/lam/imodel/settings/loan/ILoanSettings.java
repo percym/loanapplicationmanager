@@ -129,20 +129,6 @@ public interface ILoanSettings extends IActive{
     INonResidentSettings getNonResidentSettings();
 
     /**
-     * Sets  non res settings for this loan.
-     *
-     * @param  nonResidentSettings settings for this loan.
-     */
-    void setNonResidentSettings(INonResidentSettings nonResidentSettings);
-
-    /**
-     * Returns  property settings for this loan.
-     *
-     * @return property settings for this loan.
-     */
-    IPropertySettings getPropertySettings();
-
-    /**
      * Sets  property settings for this loan.
      *
      * @param  propertySettings settings for this loan.

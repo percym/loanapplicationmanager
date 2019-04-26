@@ -1,0 +1,26 @@
+//    @Valid
+//    @JsonDeserialize(as = NonResidentSettings.class)
+//    @OneToOne(targetEntity = NonResidentSettings.class,  cascade = {CascadeType.ALL}, orphanRemoval = true)
+//    INonResidentSettings nonResidentSettings;
+//
+//    @Valid
+//    @JsonDeserialize(as = PropertySettings.class)
+//    @OneToOne(targetEntity = PropertySettings.class,  cascade = {CascadeType.ALL}, orphanRemoval = true)
+//    IPropertySettings propertySettings; 	
+
+
+***************************************************************************************************************
+
+//    /**
+//     * Sets  non res settings for this loan.
+//     *
+//     * @param  nonResidentSettings settings for this loan.
+//     */
+//    void setNonResidentSettings(INonResidentSettings nonResidentSettings);
+//
+//    /**
+//     * Returns  property settings for this loan.
+//     *
+//     * @return property settings for this loan.
+//     */
+//    IPropertySettings getPropertySettings();
