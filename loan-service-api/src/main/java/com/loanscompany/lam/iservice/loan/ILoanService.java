@@ -11,11 +11,11 @@ public interface ILoanService {
 
     List<Loan> findAllByApproved(Boolean approved);
 
-    Loan save(Loan member);
+    Loan save(Loan loan);
 
-    void delete(Long memberId);
+    void delete(Long loanId);
 
-    Loan findOne(Long memberId);
+    Loan findOne(Long loanId);
 
     List<Loan> findAll();
 }

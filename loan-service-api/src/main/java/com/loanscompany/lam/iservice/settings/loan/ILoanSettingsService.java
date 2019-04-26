@@ -10,7 +10,7 @@ import java.util.List;
  */
 public interface ILoanSettingsService {
 
-    List<LoanSettings> findAllByApproved(Boolean approved);
+    List<LoanSettings> findAllByActive(Boolean active);
 
     LoanSettings save(LoanSettings member);
 
