@@ -14,5 +14,6 @@ import java.util.List;
 @Repository
 public interface LoanSettingsRepository extends JpaRepository<LoanSettings, Long>, JpaSpecificationExecutor<LoanSettings> {
     List<LoanSettings> findAllByActive(Boolean active);
-}
+    List<LoanSettings> findAllByClient_Id(Long clientId);
+ }
 

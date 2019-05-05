@@ -43,4 +43,9 @@ public class LoanSettingsServiceImpl implements ILoanSettingsService {
     public List<LoanSettings> findAll() {
         return loanSettingsRepository.findAll();
     }
+
+    @Override
+    public List<LoanSettings> findAllByClient_Id(Long clientId) {
+        return loanSettingsRepository.findAllByClient_Id(clientId);
+    }
 }

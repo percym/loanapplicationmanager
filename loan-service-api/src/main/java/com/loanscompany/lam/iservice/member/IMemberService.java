@@ -22,4 +22,6 @@ public interface IMemberService {
     List<Member> findAllBySystemUser_Id(Long userId);
 
     List<Member> findAllByActive(Boolean active);
+
+    List<Member> findAllBySystemUser_Location_Client_Id(Long clientId);
 }

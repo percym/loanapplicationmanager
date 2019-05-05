@@ -52,4 +52,9 @@ public class MemberShipServiceImpl implements IMemberService {
     public List<Member> findAllByActive(Boolean active) {
         return memberRepository.findAllByActive(true);
     }
+
+    @Override
+    public List<Member> findAllBySystemUser_Location_Client_Id(Long clientId) {
+        return memberRepository.findAllBySystemUser_Location_Client_Id(clientId);
+    }
 }

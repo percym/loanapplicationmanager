@@ -17,4 +17,6 @@ public interface MemberRepository  extends JpaRepository<Member, Long>{
 
     List<Member> findAllByActive(Boolean active);
 
+    List<Member> findAllBySystemUser_Location_Client_Id(Long clientId);
+
 }

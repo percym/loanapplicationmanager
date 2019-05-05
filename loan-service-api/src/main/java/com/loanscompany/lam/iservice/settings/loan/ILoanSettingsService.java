@@ -12,11 +12,13 @@ public interface ILoanSettingsService {
 
     List<LoanSettings> findAllByActive(Boolean active);
 
-    LoanSettings save(LoanSettings member);
+    LoanSettings save(LoanSettings loanSettings);
 
     void delete(Long memberId);
 
     LoanSettings findOne(Long memberId);
 
     List<LoanSettings> findAll();
+
+    List<LoanSettings> findAllByClient_Id(Long clientId);
 }
