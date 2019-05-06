@@ -18,4 +18,9 @@ public interface ILoanService {
     Loan findOne(Long loanId);
 
     List<Loan> findAll();
+
+    List<Loan> findAllBySystemUser_Location_Client_Id(Long clientId);
+
+
+    List<Loan> findAllByMember_IdNumber(String idNumber);
 }

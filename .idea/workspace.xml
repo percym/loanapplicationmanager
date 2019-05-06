@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4e0f94e-4a7b-4405-9c38-a732c0887c61" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/settings/loan/LoanSettingsController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/loan/LoanController.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/member/MemberController.java" afterPath="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/member/MemberController.java" />
-      <change beforePath="$PROJECT_DIR$/loan-repository/src/main/java/com/loanscompany/lam/repository/member/MemberRepository.java" afterPath="$PROJECT_DIR$/loan-repository/src/main/java/com/loanscompany/lam/repository/member/MemberRepository.java" />
-      <change beforePath="$PROJECT_DIR$/loan-service-api/src/main/java/com/loanscompany/lam/iservice/member/IMemberService.java" afterPath="$PROJECT_DIR$/loan-service-api/src/main/java/com/loanscompany/lam/iservice/member/IMemberService.java" />
-      <change beforePath="$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/member/MemberShipServiceImpl.java" afterPath="$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/member/MemberShipServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/loan-repository/src/main/java/com/loanscompany/lam/repository/loan/LoanRepository.java" afterPath="$PROJECT_DIR$/loan-repository/src/main/java/com/loanscompany/lam/repository/loan/LoanRepository.java" />
+      <change beforePath="$PROJECT_DIR$/loan-service-api/src/main/java/com/loanscompany/lam/iservice/loan/ILoanService.java" afterPath="$PROJECT_DIR$/loan-service-api/src/main/java/com/loanscompany/lam/iservice/loan/ILoanService.java" />
+      <change beforePath="$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/loan/LoanServiceImpl.java" afterPath="$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/loan/LoanServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,21 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LocationController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/location/LocationController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="74" column="44" lean-forward="true" selection-start-line="73" selection-start-column="11" selection-end-line="74" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MemberController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/member/MemberController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="54" column="5" lean-forward="false" selection-start-line="54" selection-start-column="5" selection-end-line="57" selection-end-column="9" />
+            <state relative-caret-position="1635">
+              <caret line="121" column="42" lean-forward="false" selection-start-line="121" selection-start-column="42" selection-end-line="121" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#808#809#0" expanded="true" />
@@ -56,53 +45,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoanSettingsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/settings/loan/LoanSettingsController.java">
+      <file leaf-file-name="LoanController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/loan/LoanController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            <state relative-caret-position="204">
+              <caret line="103" column="39" lean-forward="false" selection-start-line="103" selection-start-column="39" selection-end-line="103" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#774#775#0" expanded="true" />
+                <element signature="e#820#821#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ILoanSettingsService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/loan-service-api/src/main/java/com/loanscompany/lam/iservice/settings/loan/ILoanSettingsService.java">
+      <file leaf-file-name="application-prod.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/loan-web-app/src/main/resources/application-prod.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="60">
+              <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IMemberService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loan-service-api/src/main/java/com/loanscompany/lam/iservice/member/IMemberService.java">
+      <file leaf-file-name="ILoanService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loan-service-api/src/main/java/com/loanscompany/lam/iservice/loan/ILoanService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="105">
+              <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MemberShipServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/member/MemberShipServiceImpl.java">
+      <file leaf-file-name="LoanServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/loan/LoanServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MemberRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loan-repository/src/main/java/com/loanscompany/lam/repository/member/MemberRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="19" column="71" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="71" />
+            <state relative-caret-position="660">
+              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -111,28 +92,18 @@
       <file leaf-file-name="Member.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loan-model-impl/src/main/java/com/loanscompany/lam/model/member/Member.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="90" column="19" lean-forward="false" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
+            <state relative-caret-position="765">
+              <caret line="75" column="20" lean-forward="false" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ISystemUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loan-model-api/src/main/java/com/loanscompany/lam/imodel/user/ISystemUser.java">
+      <file leaf-file-name="LoanRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loan-repository/src/main/java/com/loanscompany/lam/repository/loan/LoanRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SystemUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loan-model-impl/src/main/java/com/loanscompany/lam/model/user/SystemUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-30">
-              <caret line="46" column="50" lean-forward="false" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+            <state relative-caret-position="180">
+              <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="18" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -203,8 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/fileUpload/exceptions/StorageFileNotFoundException.java" />
-        <option value="$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/fileUpload/FileSystemStorageService.java" />
         <option value="$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/fileUpload/FileStorageService.java" />
         <option value="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/client/ClientController.java" />
         <option value="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/location/LocationController.java" />
@@ -240,20 +209,22 @@
         <option value="$PROJECT_DIR$/loan-model-api/src/main/java/com/loanscompany/lam/imodel/settings/loan/ILoanSettings.java" />
         <option value="$PROJECT_DIR$/loan-model-api/src/main/java/com/loanscompany/lam/imodel/loan/ILoan.java" />
         <option value="$PROJECT_DIR$/loan-model-impl/src/main/java/com/loanscompany/lam/model/loan/Loan.java" />
-        <option value="$PROJECT_DIR$/loan-repository/src/main/java/com/loanscompany/lam/repository/loan/LoanRepository.java" />
         <option value="$PROJECT_DIR$/loan-service-api/src/main/java/com/loanscompany/lam/iservice/settings/loan/ILoanService.java" />
-        <option value="$PROJECT_DIR$/loan-service-api/src/main/java/com/loanscompany/lam/iservice/loan/ILoanService.java" />
-        <option value="$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/loan/LoanServiceImpl.java" />
         <option value="$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/settings/loan/LoanSettingsImpl.java" />
-        <option value="$PROJECT_DIR$/loan-service-api/src/main/java/com/loanscompany/lam/iservice/settings/loan/ILoanSettingsService.java" />
-        <option value="$PROJECT_DIR$/loan-repository/src/main/java/com/loanscompany/lam/repository/setting/loans/LoanSettingsRepository.java" />
-        <option value="$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/settings/loan/LoanSettingsServiceImpl.java" />
         <option value="$PROJECT_DIR$/loan-repository/src/main/java/com/loanscompany/lam/repository/member/MemberRepository.java" />
         <option value="$PROJECT_DIR$/loan-service-api/src/main/java/com/loanscompany/lam/iservice/member/IMemberService.java" />
         <option value="$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/member/MemberShipServiceImpl.java" />
         <option value="$PROJECT_DIR$/loan-model-impl/src/main/java/com/loanscompany/lam/model/settings/loan/LoanSettings.java" />
         <option value="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/member/MemberController.java" />
+        <option value="$PROJECT_DIR$/loan-repository/src/main/java/com/loanscompany/lam/repository/setting/loans/LoanSettingsRepository.java" />
+        <option value="$PROJECT_DIR$/loan-service-api/src/main/java/com/loanscompany/lam/iservice/settings/loan/ILoanSettingsService.java" />
+        <option value="$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/settings/loan/LoanSettingsServiceImpl.java" />
         <option value="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/settings/loan/LoanSettingsController.java" />
+        <option value="$PROJECT_DIR$/loan-repository/src/main/java/com/loanscompany/lam/repository/loan/LoanRepository.java" />
+        <option value="$PROJECT_DIR$/loan-service-api/src/main/java/com/loanscompany/lam/iservice/loan/ILoanService.java" />
+        <option value="$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/loan/LoanServiceImpl.java" />
+        <option value="$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/loan/LoanController.java" />
+        <option value="$PROJECT_DIR$/loan-web-app/src/main/resources/application-prod.properties" />
       </list>
     </option>
   </component>
@@ -292,8 +263,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -390,27 +362,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="loanapplicationmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="loanapplicationmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="loan-model-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="loanapplicationmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="loanapplicationmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="loan-model-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-              <item name="loan" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="loanapplicationmanager" type="b2602c69:ProjectViewProjectNode" />
@@ -622,12 +573,19 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="loanwebapp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="loanapplicationmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loanapplicationmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="loan-web-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -645,7 +603,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
-    <property name="SearchEverywhereHistoryKey" value="ME&#9;FILE&#9;file:///home/percym/Documents/projects/loanapplicationmanager/loan-model-impl/src/main/java/com/loanscompany/lam/model/member/Member.java&#10;Loa&#9;FILE&#9;file:///home/percym/Documents/projects/loanapplicationmanager/loan-model-api/src/main/java/com/loanscompany/lam/imodel/settings/loan/ILoanSettings.java&#10;client&#9;FILE&#9;file:///home/percym/Documents/projects/loanapplicationmanager/loan-model-impl/src/main/java/com/loanscompany/lam/model/client/Client.java&#10;Lo&#9;FILE&#9;file:///home/percym/Documents/projects/loanapplicationmanager/loan-model-api/src/main/java/com/loanscompany/lam/imodel/loan/ILoan.java&#10;KY&#9;FILE&#9;file:///home/percym/Documents/projects/loanapplicationmanager/loan-model-impl/src/main/java/com/loanscompany/lam/model/settings/kyc/KYCSettings.java&#10;ICl&#9;FILE&#9;file:///home/percym/Documents/projects/loanapplicationmanager/loan-model-api/src/main/java/com/loanscompany/lam/imodel/client/IClient.java&#10;Loca&#9;PSI&#9;JAVA://com.loanscompany.lam.model.location.Location&#10;Pay&#9;PSI&#9;JAVA://com.loanscompany.lam.utility.enums.PaymentType&#10;Usese&#9;FILE&#9;file:///home/percym/Documents/projects/loanapplicationmanager/loan-service-impl/src/main/java/com/loanscompany/lam/service/user/ISystemUserServiceImpl.java&#10;loca&#9;PSI&#9;JAVA://com.loanscompany.lam.model.location.Location&#10;Role&#9;FILE&#9;file:///home/percym/Documents/projects/loanapplicationmanager/loan-model-impl/src/main/java/com/loanscompany/lam/model/user/Role.java&#10;RoleR&#9;FILE&#9;file:///home/percym/Documents/projects/loanapplicationmanager/loan-repository/src/main/java/com/loanscompany/lam/repository/user/role/RoleRepository.java" />
+    <property name="SearchEverywhereHistoryKey" value="LoanRe&#9;FILE&#9;file:///home/percym/Documents/projects/loanapplicationmanager/loan-repository/src/main/java/com/loanscompany/lam/repository/loan/LoanRepository.java&#10;ME&#9;FILE&#9;file:///home/percym/Documents/projects/loanapplicationmanager/loan-model-impl/src/main/java/com/loanscompany/lam/model/member/Member.java&#10;Loa&#9;FILE&#9;file:///home/percym/Documents/projects/loanapplicationmanager/loan-model-api/src/main/java/com/loanscompany/lam/imodel/settings/loan/ILoanSettings.java&#10;client&#9;FILE&#9;file:///home/percym/Documents/projects/loanapplicationmanager/loan-model-impl/src/main/java/com/loanscompany/lam/model/client/Client.java&#10;Lo&#9;FILE&#9;file:///home/percym/Documents/projects/loanapplicationmanager/loan-model-api/src/main/java/com/loanscompany/lam/imodel/loan/ILoan.java&#10;KY&#9;FILE&#9;file:///home/percym/Documents/projects/loanapplicationmanager/loan-model-impl/src/main/java/com/loanscompany/lam/model/settings/kyc/KYCSettings.java&#10;ICl&#9;FILE&#9;file:///home/percym/Documents/projects/loanapplicationmanager/loan-model-api/src/main/java/com/loanscompany/lam/imodel/client/IClient.java&#10;Loca&#9;PSI&#9;JAVA://com.loanscompany.lam.model.location.Location&#10;Pay&#9;PSI&#9;JAVA://com.loanscompany.lam.utility.enums.PaymentType&#10;Usese&#9;FILE&#9;file:///home/percym/Documents/projects/loanapplicationmanager/loan-service-impl/src/main/java/com/loanscompany/lam/service/user/ISystemUserServiceImpl.java&#10;loca&#9;PSI&#9;JAVA://com.loanscompany.lam.model.location.Location&#10;Role&#9;FILE&#9;file:///home/percym/Documents/projects/loanapplicationmanager/loan-model-impl/src/main/java/com/loanscompany/lam/model/user/Role.java&#10;RoleR&#9;FILE&#9;file:///home/percym/Documents/projects/loanapplicationmanager/loan-repository/src/main/java/com/loanscompany/lam/repository/user/role/RoleRepository.java" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -796,12 +754,13 @@
       <workItem from="1556191648569" duration="15826000" />
       <workItem from="1556259960460" duration="15873000" />
       <workItem from="1556377837879" duration="51000" />
-      <workItem from="1557065682709" duration="2718000" />
+      <workItem from="1557065682709" duration="6172000" />
+      <workItem from="1557072818957" duration="779000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119269000" />
+    <option name="totallyTimeSpent" value="123502000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="522" y="27" width="1366" height="741" extended-state="6" />
@@ -821,7 +780,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21904762" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2591508" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26061493" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -853,27 +812,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/loan-model-impl/src/main/java/com/loanscompany/lam/model/settings/nonres/NonResidentSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loan-model-impl/src/main/java/com/loanscompany/lam/model/settings/property/PropertySettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loan-model-impl/src/main/java/com/loanscompany/lam/model/location/Location.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="71" column="3" lean-forward="false" selection-start-line="71" selection-start-column="3" selection-end-line="75" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/loan-model-api/src/main/java/com/loanscompany/lam/imodel/settings/guarantor/IGuarantorSettings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
@@ -997,7 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="127" column="2" lean-forward="true" selection-start-line="127" selection-start-column="2" selection-end-line="139" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1092,61 +1029,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loan-model-impl/src/main/java/com/loanscompany/lam/model/loan/Loan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-106">
-          <caret line="62" column="42" lean-forward="true" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loan-repository/src/main/java/com/loanscompany/lam/repository/loan/LoanRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loan-service-api/src/main/java/com/loanscompany/lam/iservice/loan/ILoanService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loan-repository/src/main/java/com/loanscompany/lam/repository/setting/loans/LoanSettingsRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/loan/LoanServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/settings/loan/LoanSettingsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="42" column="41" lean-forward="true" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loan-model-impl/src/main/java/com/loanscompany/lam/model/member/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="90" column="19" lean-forward="false" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/loan-model-api/src/main/java/com/loanscompany/lam/imodel/user/ISystemUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1186,22 +1072,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="74" column="44" lean-forward="true" selection-start-line="73" selection-start-column="11" selection-end-line="74" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loan-model-impl/src/main/java/com/loanscompany/lam/model/settings/loan/LoanSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/member/MemberController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="54" column="5" lean-forward="false" selection-start-line="54" selection-start-column="5" selection-end-line="57" selection-end-column="9" />
+        <state relative-caret-position="1635">
+          <caret line="121" column="42" lean-forward="false" selection-start-line="121" selection-start-column="42" selection-end-line="121" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#808#809#0" expanded="true" />
@@ -1210,20 +1087,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/settings/loan/LoanSettingsController.java">
+    <entry file="file://$PROJECT_DIR$/loan-model-impl/src/main/java/com/loanscompany/lam/model/settings/loan/LoanSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="155">
+          <caret line="59" column="13" lean-forward="false" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/loan-service-api/src/main/java/com/loanscompany/lam/iservice/settings/loan/ILoanSettingsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loan-model-impl/src/main/java/com/loanscompany/lam/model/general/Active.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loan-repository/src/main/java/com/loanscompany/lam/repository/setting/loans/LoanSettingsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="56" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/settings/loan/LoanSettingsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loan-model-impl/src/main/java/com/loanscompany/lam/model/member/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="75" column="20" lean-forward="false" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loan-model-impl/src/main/java/com/loanscompany/lam/model/loan/Loan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="57" column="28" lean-forward="true" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/settings/loan/LoanSettingsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="57" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loan-repository/src/main/java/com/loanscompany/lam/repository/loan/LoanRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="18" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loan-service-api/src/main/java/com/loanscompany/lam/iservice/loan/ILoanService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loan-service-impl/src/main/java/com/loanscompany/lam/service/loan/LoanServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loan-endpoint/src/main/java/com/loanscompany/lam/endpoint/controller/loan/LoanController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="103" column="39" lean-forward="false" selection-start-line="103" selection-start-column="39" selection-end-line="103" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loan-web-app/src/main/resources/application-prod.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
           <folding />
         </state>
       </provider>

@@ -15,4 +15,6 @@ import java.util.List;
 @Repository
 public interface LoanRepository extends JpaRepository<Loan,Long> , JpaSpecificationExecutor<Loan>{
         List<Loan> findAllByApproved(Boolean approved);
+        List<Loan> findAllBySystemUser_Location_Client_Id(Long clientId);
+        List<Loan> findAllByMember_IdNumber(String idNumber);
 }

@@ -46,4 +46,14 @@ public class LoanServiceImpl implements ILoanService{
     public List<Loan> findAll() {
         return loanRepository.findAll();
     }
+
+    @Override
+    public List<Loan> findAllBySystemUser_Location_Client_Id(Long clientId) {
+        return loanRepository.findAllBySystemUser_Location_Client_Id(clientId);
+    }
+
+    @Override
+    public List<Loan> findAllByMember_IdNumber(String idNumber) {
+        return loanRepository.findAllByMember_IdNumber(idNumber);
+    }
 }
