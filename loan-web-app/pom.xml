@@ -12,7 +12,7 @@
 	<artifactId>loan-web-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>loan-web-app</name>
+	<name>lam</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -107,6 +107,14 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<configuration>
+					<warName>lam</warName>
+				</configuration>
+				<version>3.2.2</version>
 			</plugin>
 		</plugins>
 	</build>

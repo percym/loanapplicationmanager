@@ -5,6 +5,8 @@ import com.loanscompany.lam.model.settings.loan.LoanSettings;
 import com.loanscompany.lam.repository.loan.LoanRepository;
 import com.loanscompany.lam.repository.setting.loans.LoanSettingsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -13,6 +15,8 @@ import java.util.List;
  *
  * @author percym
  */
+@Transactional
+@Service
 public class LoanSettingsServiceImpl implements ILoanSettingsService {
     @Autowired
     private LoanSettingsRepository loanSettingsRepository;

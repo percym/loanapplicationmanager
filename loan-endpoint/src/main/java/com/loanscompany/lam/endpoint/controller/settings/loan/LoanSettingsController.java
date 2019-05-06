@@ -67,7 +67,7 @@ public class LoanSettingsController {
      */
     @PutMapping("/loan_settings")
     @Timed
-    public ResponseEntity<?> saveLoanSettings(@Valid @RequestBody LoanSettings loanSettings) {
+    public ResponseEntity<?> updateLoanSettings(@Valid @RequestBody LoanSettings loanSettings) {
         log.debug("REST request to get all ILoanSettings");
         if (loanSettings.getId() != null){
             return   new ResponseEntity<>(new ResponseMessage("Fail ->Enter valid loan settings id!"),
